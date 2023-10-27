@@ -117,7 +117,27 @@
 }
 
 
-
+/* cor1 */
+.cor1{
+    color: red;
+}
+.cor1:hover{
+    color: #000;
+}
+/* cor2 */
+.cor2{
+    color: #ffbf47
+}
+.cor2:hover{
+    color: #000;
+}
+/* cor3 */
+.cor3{
+    color: green;
+}
+.cor3:hover{
+    color: #000;
+}
 
 
 
