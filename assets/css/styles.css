@@ -1,0 +1,137 @@
+/* CORES DE FUNDO */
+.bgc{
+    background-color: #bd39b05c;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgc1 {
+    background-image: url("../img/fundo_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgc2 {
+    background: rgb(255,244,255);
+    background: linear-gradient(0deg, rgb(231, 204, 226) 0%, rgb(233, 191, 226) 100%);
+    background-repeat: no-repeat;
+    /* background-size:; */
+    /* background-repeat:space; */
+}
+.cor-card{
+    background: rgb(130,92,161);
+    background: linear-gradient(0deg, rgb(205, 172, 233) 0%, rgb(238, 192, 187) 100%);
+}
+.cor-card2{
+    background: rgb(130,92,161);
+    background: linear-gradient(0deg, rgb(205, 172, 233) 0%, rgb(205, 172, 233) 100%);
+}
+
+
+/* ABA DE CIMA */
+.janela {
+    align-items: end;
+    text-align: end;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+
+    width: 22.9rem;
+    background-color: rgb(205, 172, 233);
+}
+.icone_esquerda {
+    margin-top: 1px;
+    width: 16px; 
+    height: 12px;
+}
+.icone_meio {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 12px; 
+    height: 12px;
+}
+.icone_direita {
+    margin-bottom: 1px;
+    width: 16px; 
+    height: 16px;
+}
+
+
+/* DECORAÇÃO */
+.espaco{
+    visibility: hidden;
+}
+.letra-botao{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.decoracao{
+    /* color: #EB9E96; */
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+
+/* CARD */
+.center-card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-size{
+    width: 23rem;
+    margin-top: -2px;
+}
+
+
+/* BOTOES */
+.center-botoes{
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.botao {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* COPYRIGHT */
+.cp-text{
+    font-size: 10px;
+    color: #000; 
+    text-decoration: underline;
+    
+    display: flex;
+    justify-content: center;  
+}
+
+
+
+
+
+
+#links-fixos {
+    margin-left: 1rem;
+    
+    padding: 5px;
+    background: rgba(205, 26, 26, 0.2);
+    position: fixed;
+    top: 200px;
+
+    width : 4rem;
+    height: 5rem;
+}
+
+
+
